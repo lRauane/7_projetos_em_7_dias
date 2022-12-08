@@ -40,6 +40,7 @@ const salvTodo =(text) =>{
   deletebtn.innerHTML = '<i class="fa-solid fa-xmark"></i>'
   todo.appendChild(deletebtn)
 
+
   // finalizamos adicionando a classe "todo" ao elemento "todo-list" e criando uma nova tarefa
   todoList.appendChild(todo)
 
@@ -130,3 +131,6 @@ editForm.addEventListener("submit", (e) =>{
 
   toggleForms()
 })
+
+
+// utilizando dados do LocalStorage
